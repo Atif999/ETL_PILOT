@@ -20,7 +20,7 @@ Follow these steps to set up the project on your local machine:
    Open a terminal or command prompt and run the following command:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Atif999/ETL_PILOT.git
    cd <repository-directory>
    ```
 
