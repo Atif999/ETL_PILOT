@@ -34,8 +34,8 @@ You can install the required Python libraries using pip. The project have a requ
 
 Create a .env file in the root of your project directory and add your MongoDB and PostgreSQL connection strings. The file should look like this:
 
-MONGO_URI='your_mongodb_uri' <br\>
-MONGO_DB_NAME='your_database_name' <br\>
+MONGO_URI='your_mongodb_uri'\
+MONGO_DB_NAME='your_database_name'\
 POSTGRESQL_URI='your_postgresql_uri'
 
 Replace your_mongodb_uri, your_database_name, and your_postgresql_uri with your actual database credentials
