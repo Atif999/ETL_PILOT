@@ -55,7 +55,7 @@ schemas = {}
 @retry(max_attempts=3, delay=5)
 def etl_pipeline():
     for collection_name in collections:
-        df, schema = extract_data_and_infer_schema(collection_name)
+        df, schema = extract_data_and_infer_schema(collection_name,db)
         dfs[collection_name] = df
         schemas[collection_name] = schema
         all_schemas[collection_name] = schema  # Store schema for foreign key detection
